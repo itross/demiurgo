@@ -1,0 +1,36 @@
+{
+  "name": "demiurgo",
+  "version": "0.1.0",
+  "description": "Node.js project generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itross/demiurgo.git"
+  },
+  "keywords": [
+    "node.js",
+    "project",
+    "generator"
+  ],
+  "author": "Luca Stasio <joshuagame@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itross/demiurgo/issues"
+  },
+  "homepage": "https://github.com/itross/demiurgo#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2"
+  }
+}

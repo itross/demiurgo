@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "Node.js project generator",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "clear": "^0.1.0",
-    "figlet": "^1.5.2"
+    "clui": "^0.3.6",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.3"
   }
 }
